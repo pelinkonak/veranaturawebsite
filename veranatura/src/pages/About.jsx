@@ -56,13 +56,22 @@ export default function About() {
       <section className="flex flex-col md:flex-row justify-center items-center gap-10 max-w-5xl mx-auto py-12 px-4">
         <div className="flex-1">
           <h2 className="text-2xl md:text-3xl text-[#36513b] font-serif font-bold mb-6 text-left">
-            Vera Natura olarak Türkiye’nin dört bir yanından güvenilir üreticilerle çalışıyoruz.
+            Vera Natura, bereketli toprakların, emeğin ve güvenin markalaşmış halidir.
           </h2>
           <p className="text-[#36513b] text-base mb-4">
-            Vera Natura olarak Türk yurdunun dört bir yanından güvenilir üreticilerle çalışıyoruz.
+            Bizim hikayemiz, yıllar önce ailemizle birlikte küçük bir tarlada, tamamen doğal yöntemlerle yetiştirdiğimiz Taşköprü sarımsağını komşularımıza ulaştırmamızla başladı. O günlerde tek amacımız, sevdiklerimize en sağlıklı, en güvenilir gıdayı sunmaktı.
+
+Zamanla gördük ki, insanlar sadece ürünün tadını değil; arkasındaki hikayeyi, samimiyeti ve emeği de önemsiyor. Ürettiğimiz her sarımsak, sofralara yalnızca lezzet değil; toprağın kokusunu, emeğin değerini ve doğallığın huzurunu taşıyordu. Komşularımızın memnuniyeti arttıkça talepler de büyüdü. İnsanlar bizden sadece sarımsak değil, aynı doğallıkta başka ürünler de istiyordu.
+
+İşte tam o noktada, yılların birikimini ve doğaya olan sevgimizi bir marka çatısı altında toplama kararı aldık. Böylece VeraNatura doğdu. Adımızı, doğallığı ve yaşamı ifade eden “Vera” ile, doğanın kendisini temsil eden “Natura” kelimelerinden aldık. Bizim için VeraNatura, yalnızca ticari bir marka değil; toprağa, üreticiye ve tüketiciye verilen bir söz demek.
+
+
           </p>
           <p className="text-[#36513b] text-base">
-            Tarladan direkt sofraya ulaşan ürünlerimiz katkısız, doğal ve etik üretimle müşterilerimize ulaşıyor.
+            Bugün, tarlalarımızdan sofralarınıza uzanan yolculuğumuzda; soğuk sıkım zeytinyağından katkısız ballara, el emeği çaylardan yöresel lezzetlere kadar birçok ürünü aynı özenle ve aynı ilkelerle üretiyoruz. Her bir ürünümüz, çiftçimizin emeği, toprağın bereketi ve doğallığın özü ile hazırlanır.
+
+Üretim süreçlerimizde doğaya zarar vermemeyi, toprağı korumayı ve sürdürülebilir tarım uygulamalarını benimsemeyi en temel ilke haline getirdik. Çünkü biliyoruz ki, doğa bize ne verirse, biz de onu gelecek nesillere en saf haliyle bırakmakla sorumluyuz.
+
           </p>
         </div>
         <div className="flex-1 flex justify-center items-center">

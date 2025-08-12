@@ -44,15 +44,15 @@ export default function Footer() {
           <div>
             <span className="font-bold mb-2 block">Adres</span>
             <address className="not-italic">
-              Merkez Orisi Huzüris Oğl Mah., 2.142<br />
-              Shalletâ Sülh K. 8132 <br />
+              Emek Mah. Ordu Cad. Suryapı Adapark Sitesi<br />
+              No24 Sancaktepe/İstanbul <br />
               <span className="flex items-center gap-2 mt-1">
                 <svg width="16" height="16" fill="currentColor" className="inline"><path d="M6.62 10.79a15.09 15.09 0 0 1-5.11-5.1 1.67 1.67 0 0 1 .21-2.11l1.28-1.28a1.67 1.67 0 0 1 2.11-.21c.42.26.98.67 1.62 1.31.64.64 1.05 1.2 1.31 1.62a1.67 1.67 0 0 1-.21 2.11l-1.28 1.28zm1.2 2.2c2.68 2.67 7 2.52 9.23-.51a1.72 1.72 0 0 0 .15-1.77c-.26-.52-.6-1.1-1.05-1.55-.44-.44-1.02-.78-1.55-1.05a1.72 1.72 0 0 0-1.77.15c-3.03 2.22-3.18 6.55-.51 9.23z"/></svg>
-                (0860) 711-8152
+                (0507) 036-0637
               </span>
               <span className="flex items-center gap-2 mt-1">
                 <svg width="16" height="16" fill="currentColor" className="inline"><path d="M2 4a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V4zm2.94.97A1 1 0 1 0 6.03 7.03a1 1 0 0 0-1.09-2.06zM8 9c2.67 0 8 1.34 8 4v3H0v-3c0-2.66 5.33-4 8-4zm0-7C4.13 2 0 4.69 0 8c0 3.31 4.13 6 8 6s8-2.69 8-6c0-3.31-4.13-6-8-6z"/></svg>
-                info@veranatura.com.tr
+                veranatura0@gmail.com
               </span>
             </address>
           </div>
@@ -60,7 +60,7 @@ export default function Footer() {
       </div>
       {/* Alt Satır */}
       <div className="text-[#36513b] text-xs text-center mt-6">
-        © 2024 Vera Natura Tugtükie
+        © 2025 Vera Natura. Tüm hakları saklıdır.
       </div>
     </footer>
   );

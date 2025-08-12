@@ -7,6 +7,8 @@ import Home from './pages/Home.jsx';
 import Products from './pages/Products.jsx';
 import './index.css';
 import About from './pages/About.jsx';
+import ProductDetail from "./pages/ProductDetail.jsx";
+import Field from "./pages/Field.jsx";
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
@@ -16,6 +18,8 @@ ReactDOM.createRoot(document.getElementById('root')).render(
           <Route index element={<Home />} />
           <Route path="urunlerimiz" element={<Products />} />
           <Route path="hakkimizda" element={<About />} />
+          <Route path="urun/:slug" element={<ProductDetail />} />
+          <Route path="tarlalarimiz" element={<Field />} />
           {/* Diğer sayfalar: hakkimizda, tarlalarimiz ... */}
         </Route>
       </Routes>

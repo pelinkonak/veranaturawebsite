@@ -24,10 +24,11 @@ export default function Navbar() {
           </Link>
         </li>
         <li>
-          <a href="#" className="hover:underline">
-            TARLALARIMIZ
-          </a>
-        </li>
+  <Link to="/tarlalarimiz" className="hover:underline">
+    TARLALARIMIZ
+  </Link>
+</li>
+
         <li>
           <a
             href="https://wa.me/05070360637"
