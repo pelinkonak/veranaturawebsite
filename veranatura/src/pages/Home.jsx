@@ -1,27 +1,39 @@
 import Footer from '../components/Footer';
 import { Link } from "react-router-dom";
+import heroBg from "../assets/veranaturalogo.jpg";
 
 export default function Home() {
   return (
     <div className="bg-[#f7f5ec] min-h-screen">
 
       {/* HERO SECTION */}
-      <section className="relative h-[360px] flex flex-col items-center justify-center text-center rounded-xl mx-8 mt-2 overflow-hidden shadow-lg bg-[#36513b]">
-        {/* Görsel yerine arka plan rengi */}
-        <div className="absolute inset-0 opacity-60"></div>
-        {/* İçerik */}
-        <div className="relative z-10 flex flex-col items-center justify-center w-full h-full">
-          <h1 className="text-4xl md:text-5xl font-serif font-bold text-white mb-2 drop-shadow-xl leading-tight">
-            DOĞALLIĞIN EN SAF <br /> HALİYLE TANIŞIN
-          </h1>
-          <p className="text-white text-lg mb-4 drop-shadow">
-            Vera Natura olarak tarladan sofranıza..
-          </p>
-          <Link to="/urunlerimiz" className="px-7 py-3 rounded-lg bg-[#f7eac2] text-[#36513b] text-lg font-semibold shadow hover:bg-[#f0e2b2] transition inline-block">
-          Ürünlere Göz At
-          </Link>
-        </div>
-      </section>
+      <section
+  className="relative h-[360px] flex flex-col items-center justify-center text-center rounded-xl mx-8 mt-2 overflow-hidden shadow-lg bg-cover"
+  style={{
+    backgroundImage: `url(${heroBg})`,
+    backgroundPosition: "center 40%" // 40% ile aşağı kaydırma
+  }}
+>
+  {/* Koyu overlay */}
+  <div className="absolute inset-0 bg-[#36513b]/60"></div>
+
+  {/* İçerik */}
+  <div className="relative z-10 flex flex-col items-center justify-center w-full h-full">
+    <h1 className="text-4xl md:text-5xl font-serif font-bold text-white mb-2 drop-shadow-xl leading-tight">
+      DOĞALLIĞIN EN SAF <br /> HALİYLE TANIŞIN
+    </h1>
+    <p className="text-white text-lg mb-4 drop-shadow">
+      Vera Natura olarak tarladan sofranıza..
+    </p>
+    <Link
+      to="/urunlerimiz"
+      className="px-7 py-3 rounded-lg bg-[#f7eac2] text-[#36513b] text-lg font-semibold shadow hover:bg-[#f0e2b2] transition inline-block"
+    >
+      Ürünlere Göz At
+    </Link>
+  </div>
+</section>
+
 
       {/* NEDEN VERA NATURA */}
       <section className="px-4 py-14 md:px-20">

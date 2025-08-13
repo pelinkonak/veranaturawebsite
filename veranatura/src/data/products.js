@@ -11,6 +11,7 @@ import cambaliImg from "../assets/cambali.JPG";
 import sarimsak from "../assets/sarimsak.jpg";
 import cicekbali from "../assets/cicekbali.jpg";
 import karakovan from "../assets/karakovan.jpg";
+import koytereyagi from "../assets/koytereyagi.jpg";
 
 // WhatsApp numaran (başında 0 olmadan, ülke kodu ile)
 export const whatsappNumber = "05070360637";
@@ -104,7 +105,7 @@ Antioksidan zengini bu özel bal, hem lezzeti hem de sağlık faydalarıyla sofr
     title: "Köy Tereyağı",
     desc: "Yayık tereyağı",
     price: "800 TL / kg",
-    img: "https://placehold.co/600x400?text=Koy+Tereyagi",
+    img: koytereyagi,
     details: "Tamamen doğal sütlerden elde edilen, mis kokulu köy tereyağımız… Kahvaltılarda, böreklerde, yemeklerde farkını hemen hissettiren, katkısız ve yoğun lezzet.",
   },
   {
