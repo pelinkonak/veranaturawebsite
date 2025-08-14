@@ -12,6 +12,9 @@ import sarimsak from "../assets/sarimsak.jpg";
 import cicekbali from "../assets/cicekbali.jpg";
 import karakovan from "../assets/karakovan.jpg";
 import koytereyagi from "../assets/koytereyagi.jpg";
+import karadutozu from "../assets/karadutozu.jpg";
+import yabanmersini from "../assets/yabanmersini.jpg";
+import nareksisi from "../assets/nareksisi.jpg";
 
 // WhatsApp numaran (başında 0 olmadan, ülke kodu ile)
 export const whatsappNumber = "05070360637";
@@ -113,15 +116,15 @@ Antioksidan zengini bu özel bal, hem lezzeti hem de sağlık faydalarıyla sofr
     title: "Karadut Özü",
     desc: "Doğal meyve özü",
     price: "300 TL / L",
-    img: "https://placehold.co/600x400?text=Karadut+Ozu",
+    img: karadutozu,
     details: "Yüksek meyve oranlı, katkısız karadut özü.",
   },
   {
     slug: "yaban-mersini-ozu",
     title: "Yaban Mersini Özü",
     desc: "Antioksidan zengini",
-    price: "—",
-    img: "https://placehold.co/600x400?text=Yaban+Mersini+Ozu",
+    price: "300 TL / L",
+    img: yabanmersini,
     details: "Doğal yaban mersininden üretilen lezzetli meyve özü.",
   },
   {
@@ -129,7 +132,7 @@ Antioksidan zengini bu özel bal, hem lezzeti hem de sağlık faydalarıyla sofr
     title: "Nar Ekşisi",
     desc: "Geleneksel yöntem",
     price: "300 TL / L",
-    img: "https://placehold.co/600x400?text=Nar+Eksisi",
+    img: nareksisi,
     details: "Uzun süreli kaynatma ile kıvamı yoğunlaştırılmış gerçek nar ekşisi.",
   },
   {

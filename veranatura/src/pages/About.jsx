@@ -2,10 +2,12 @@
 
 
 // Görseller (elinde yoksa placeholder ile devam edebilirsin)
-const img1 = "https://placehold.co/400x300?text=Zeytin";
-const img2 = "https://placehold.co/400x300?text=Balya";
-const img3 = "https://placehold.co/400x300?text=Şişe+Ürün";
-const farmerWoman = "https://placehold.co/300x350?text=Farm+Woman";
+
+import farmerWoman from "../assets/bizkimiz.jpg";
+import bizkimiz2 from "../assets/bizkimiz2.png";
+import bizkimiz3 from "../assets/bizkimiz3.png";
+
+
 
 // SVG İkonları (örnek, sade)
 function LeafIcon(props) {
@@ -92,23 +94,17 @@ Zamanla gördük ki, insanlar sadece ürünün tadını değil; arkasındaki hik
           <div className="flex flex-col items-center gap-3">
             <LeafIcon className="w-12 h-12 text-[#36513b] mb-1" />
             <h3 className="text-xl font-serif font-semibold text-[#36513b]">Doğallık</h3>
-            <p className="text-[#36513b] text-base">
-              Katkısız, yerel ve geleneksel üretim
-            </p>
+            <p className="text-[#36513b] text-base">Katkısız, yerel ve geleneksel üretim</p>
           </div>
           <div className="flex flex-col items-center gap-3">
             <FarmerIcon className="w-12 h-12 text-[#36513b] mb-1" />
             <h3 className="text-xl font-serif font-semibold text-[#36513b]">Üreticiye Saygı</h3>
-            <p className="text-[#36513b] text-base">
-              Küçük çiftçilerle doğrudan iş birliği
-            </p>
+            <p className="text-[#36513b] text-base">Küçük çiftçilerle doğrudan iş birliği</p>
           </div>
           <div className="flex flex-col items-center gap-3">
             <RecycleIcon className="w-12 h-12 text-[#36513b] mb-1" />
             <h3 className="text-xl font-serif font-semibold text-[#36513b]">Sürdürülebilirlik</h3>
-            <p className="text-[#36513b] text-base">
-              Doğaya ve insana saygılı üretim süreci
-            </p>
+            <p className="text-[#36513b] text-base">Doğaya ve insana saygılı üretim süreci</p>
           </div>
         </div>
         <div className="text-center mb-8">
@@ -116,14 +112,20 @@ Zamanla gördük ki, insanlar sadece ürünün tadını değil; arkasındaki hik
             Tarladan sofranıza bir yolculuk...
           </h4>
         </div>
-        {/* 3'lü Galeri */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-5xl mx-auto">
-          <img src={img1} alt="Zeytin" className="rounded-lg shadow-md object-cover h-56 w-full" />
-          <img src={img2} alt="Balya" className="rounded-lg shadow-md object-cover h-56 w-full" />
-          <img src={img3} alt="Şişe Ürün" className="rounded-lg shadow-md object-cover h-56 w-full" />
-        </div>
+        {/* Galeri - Yan Yana 2 Fotoğraf */}
+<div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-3xl mx-auto">
+  <img 
+    src={bizkimiz2} 
+    alt="Çiftlik Fotoğrafı 1" 
+    className="rounded-lg shadow-md object-cover h-56 w-full" 
+  />
+  <img 
+    src={bizkimiz3} 
+    alt="Çiftlik Fotoğrafı 2" 
+    className="rounded-lg shadow-md object-cover h-56 w-full" 
+  />
+</div>
       </section>
-     
     </div>
   );
 }
